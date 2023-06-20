@@ -152,6 +152,9 @@ TARGET_USES_MKE2FS := true
 # Treble
 BOARD_VNDK_VERSION := current
 
+# OrangeFox Specific Build Flags
+FOX_USE_SPECIFIC_MAGISK_ZIP := $(DEVICE_PATH)/magisk/Magisk-v26.1.zip
+
 # UEFI
 TARGET_USES_UEFI := true
 
